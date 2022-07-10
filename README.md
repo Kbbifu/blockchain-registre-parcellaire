@@ -1,47 +1,51 @@
-# Blockchain-Based-Property-Registration
-## Land Registration using Blockchain
-## Problem it Solves:
-1.) Removal of middlemen.\
-Removal of middlemen or brokers makes the process less expensive. Brokers trying to cheat uneducated
-people will no longer be able to do so. Brokers often take a long time to complete the procedures and so
-our project will also save people time.\
-2.) Distributed tamper proof ledger which prevents any fraud in ownership.\
-3.) Secure storage of sensitive property registration documents using IPFS.
+## Enregistrement de propriété basé sur la blockchain
 
-## Technology Stack:
-1. Ethereum Blockchain
-2. Aurora
-3. Web3Dart
-4. IPFS
-5. Flutter
-6. Metamask
+## Enregistrement foncier à l'aide de Blockchain
 
-## Demo
-Demonstration video of our Dapp [here](https://youtu.be/W_TpNeonLew)
+Problème qu'il résout :
 
-## Run Application Locally
-1.Clone the github repository and cd to the folder\
-2.Install flutter,nodejs\
-3.Install ganache and truffle
-```
+1.) Suppression des intermédiaires.
+La suppression des intermédiaires ou des courtiers rend le processus moins coûteux. Les courtiers essayant de tromper les personnes sans instruction ne pourront plus le faire. Les courtiers prennent souvent beaucoup de temps pour terminer les procédures et notre projet fera donc également gagner du temps aux gens.
+
+2.) Grand livre inviolable distribué qui empêche toute fraude à la propriété.
+
+3.) Stockage sécurisé des documents d'enregistrement de propriété sensibles à l'aide d'IPFS.
+
+Technologies utilisées :
+
+Ethereum Blockchain
+Aurora
+Web3Dart
+IPFS
+Flutter
+Metamask
+
+Démo
+
+Vidéo de démonstration de notre Dapp ici
+
+Exécuter l'application localement
+
+1.Clonez le référentiel github et cd dans le dossier
+2.Installez flutter, nodejs
+3.Installez ganache et truffle
+
 npm install -g truffle
-```
-4.Open Ganache and keep it running in the Background
-5.Install Metamask chrome extension,choose local network and import accounts
-6.Compile and run our migrations from the command line like this
-```
+
+4.Ouvrez Ganache et laissez-le fonctionner en arrière-plan 5.Installez l'extension chrome Metamask, choisissez le réseau local et importez les comptes 6.Compilez et exécutez nos migrations à partir de la ligne de commande comme ceci
+
 truffle compile
 truffle migrate
-```
-6.Copy contract address paste in ./lib/constant/constant.dart - 'contractAddress'\
-7.In constant.dart file Change chainId to '1337' and change 'rpcUrl' to "http://127.0.0.1:7545" \
-8.Run flutter web app
-```
-flutter run -d web-server --web-port 5555
-```
-9.Open the browser and the dapp will be running in http://localhost:5555/
 
-## Project Flowchart
+6. Copiez l'adresse du contrat et collez-la dans ./lib/constant/constant.dart - 'contractAddress'
+7. Dans le fichier constant.dart, changez chainId en '1337' et changez 'rpcUrl' en " http://127.0.0.1:7545 "
+8. Exécutez l'application Web flutter
+
+flutter run -d web-server --web-port 5555
+
+9.Ouvrez le navigateur et le dapp s'exécutera dans http://localhost:5555/
+
+## Organigramme du projet
 <img src="screenshots/flowchart.png" height="450">
 
 ## Screenshots
